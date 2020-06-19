@@ -128,25 +128,25 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 ## Bilingual dictionaries
 ###############################################################################
 
-.deps/$(PREFIX2).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
+.deps/$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
 	xsltproc --stringparam alt $(LANG1) alt.xsl $(BASENAME).$(PREFIX1).dix >$@
 
-.deps/$(PREFIX2b).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
+.deps/$(PREFIX1b).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
 	xsltproc --stringparam alt $(LANG1b) alt.xsl $(BASENAME).$(PREFIX1).dix >$@
 
-$(PREFIX1).autobil.bin: .deps/$(PREFIX2).dix .deps/.d
+$(PREFIX1).autobil.bin: .deps/$(PREFIX1).dix .deps/.d
 	apertium-validate-dictionary $<
 	lt-comp lr $< $@
 
-$(PREFIX1b).autobil.bin: .deps/$(PREFIX2b).dix .deps/.d
+$(PREFIX1b).autobil.bin: .deps/$(PREFIX1b).dix .deps/.d
 	apertium-validate-dictionary $<
 	lt-comp lr $< $@
 
-$(PREFIX2).autobil.bin: .deps/$(PREFIX2).dix .deps/.d
+$(PREFIX2).autobil.bin: .deps/$(PREFIX1).dix .deps/.d
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
-$(PREFIX2b).autobil.bin: .deps/$(PREFIX2b).dix .deps/.d
+$(PREFIX2b).autobil.bin: .deps/$(PREFIX1b).dix .deps/.d
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 

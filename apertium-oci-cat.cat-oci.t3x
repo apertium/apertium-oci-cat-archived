@@ -933,107 +933,58 @@
 			</action>
 		</rule> 
 
+<!--
 		<rule comment="CHUNK: canvia les prepos que fa falta">
 			<pattern>
 				<pattern-item n="pr"/>
 			</pattern>
 			<action>
 				<choose>
-					<when>
-						<test>
-							<and>
-								<equal caseless="yes">
-									<clip pos="1" part="lem"/>
-									<lit v="a"/>
-								</equal>
-								<equal>
-									<clip pos="0" part="lem"/>
-									<lit v="en"/>
-								</equal>
-							</and>
-						</test>
+					<when> <test> <and> <equal caseless="yes"> <clip pos="1" part="lem"/> <lit v="a"/> </equal>
+								<equal> <clip pos="0" part="lem"/> <lit v="en"/> </equal>
+							</and> </test>
 						<let>
-							<clip pos="1" part="lem"/>
-							<get-case-from pos="1">
-								<lit v="en"/>
-							</get-case-from>
+							<clip pos="1" part="lem"/> <get-case-from pos="1"> <lit v="en"/> </get-case-from>
 						</let>
 					</when>
 					<when>
 						<test>
 							<and>
-								<or>
-									<equal caseless="yes">
-										<clip pos="1" part="lem"/>
-										<lit v="a"/>
-									</equal>
-									<equal caseless="yes">
-										<clip pos="1" part="lem"/>
-										<lit v="en"/>
-									</equal>
-								</or>
-								<equal>
-									<clip pos="0" part="lem"/>
-									<lit v="dins"/>
-								</equal>
+								<or> <equal caseless="yes"> <clip pos="1" part="lem"/> <lit v="a"/> </equal>
+									<equal caseless="yes"> <clip pos="1" part="lem"/> <lit v="en"/> </equal> </or>
+								<equal> <clip pos="0" part="lem"/> <lit v="dins"/> </equal>
 							</and>
 						</test>
-						<let>
-							<clip pos="1" part="lem"/>
-							<get-case-from pos="1">
-								<lit v="dins"/>
-							</get-case-from>
-						</let>
+						<let> <clip pos="1" part="lem"/> <get-case-from pos="1"> <lit v="dins"/> </get-case-from> </let>
 					</when>
 				</choose>
 				<choose>
 					<when>
 						<test>
 							<and>
-							<equal>
-								<clip pos="1" part="lem"/>
-								<lit v="per"/>
-							</equal>
-							<equal>
-								<clip pos="0" part="lem"/>
-								<lit v="ta"/>
-							</equal>
+							<equal> <clip pos="1" part="lem"/> <lit v="per"/> </equal>
+							<equal> <clip pos="0" part="lem"/> <lit v="ta"/> </equal>
 						</and>
 						</test>
-						<let>
-							<clip pos="1" part="lem"/>
-							<lit v="tà"/>
-						</let>
+						<let> <clip pos="1" part="lem"/> <lit v="tà"/> </let>
 					</when>
 				</choose>
 				<choose>
 					<when>
 						<test>
 							<and>
-								<equal>
-									<clip pos="1" part="lem"/>
-									<lit v="per"/>
-								</equal>
-								<equal>
-									<clip pos="0" part="lem"/>
-									<lit v="enta"/>
-								</equal>
+								<equal> <clip pos="1" part="lem"/> <lit v="per"/> </equal>
+								<equal> <clip pos="0" part="lem"/> <lit v="enta"/> </equal>
 							</and>
 						</test>
-						<let>
-							<clip pos="1" part="lem"/>
-							<lit v="entà"/>
-						</let>
+						<let> <clip pos="1" part="lem"/> <lit v="entà"/> </let>
 					</when>
 				</choose>
 				<out>
-					<lu>
-						<clip pos="1" part="whole"/>
-					</lu>
+					<lu> <clip pos="1" part="whole"/> </lu>
 				</out>
 			</action>
 		</rule>
-
-
+-->
 </section-rules>
 </postchunk>
