@@ -22,15 +22,15 @@
         <file name="cat-oci.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-oci-cat.cat-oci.t1x"/>
+        <file name="cat-oci.t1x"/>
         <file name="cat-oci.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-oci-cat.cat-oci.t2x"/>
+        <file name="cat-oci.t2x"/>
         <file name="cat-oci.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-oci-cat.cat-oci.t3x"/>
+        <file name="cat-oci.t3x"/>
         <file name="cat-oci.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -55,9 +55,9 @@
   </mode>
 
   
-  <!-- oci@gascon → cat -->
+  <!-- oci@aran → cat -->
 
-  <mode name="oci_gascon-cat" install="yes" gendebug="yes">
+  <mode name="oci_aran-cat" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="oci-cat.automorf.bin"/>
@@ -76,16 +76,16 @@
         <file name="oci-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-oci-cat.oci-cat.t1x"/>
-        <file name="oci-cat.t1x.bin"/>
+        <file name="oci@aran-cat.t1x"/>
+        <file name="oci@aran-cat.t1x.bin"/>
       </program>
       <program name="apertium-interchunk -t">
-        <file name="apertium-oci-cat.oci-cat.t2x"/>
-        <file name="oci-cat.t2x.bin"/>
+        <file name="oci@aran-cat.t2x"/>
+        <file name="oci@aran-cat.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-oci-cat.oci-cat.t3x"/>
-        <file name="oci-cat.t3x.bin"/>
+        <file name="oci@aran-cat.t3x"/>
+        <file name="oci@aran-cat.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="oci-cat.autogen.bin"/>
@@ -96,9 +96,9 @@
     </pipeline>
   </mode>
 
-  <!-- cat → oci@gascon -->
+  <!-- cat → oci@aran -->
 
-  <mode name="cat-oci_gascon" install="yes" gendebug="yes">
+  <mode name="cat-oci_aran" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="cat-oci.automorf.bin"/>
@@ -111,28 +111,28 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="cat-oci@gascon.autobil.bin"/>
+        <file name="cat-oci@aran.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="cat-oci@gascon.autolex.bin"/>
+        <file name="cat-oci@aran.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-oci-cat.cat-oci.t1x"/>
+        <file name="cat-oci@aran.t1x"/>
         <file name="cat-oci.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-oci-cat.cat-oci.t2x"/>
+        <file name="cat-oci@aran.t2x"/>
         <file name="cat-oci.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-oci-cat.cat-oci.t3x"/>
+        <file name="cat-oci@aran.t3x"/>
         <file name="cat-oci.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="cat-oci@gascon.autogen.bin"/>
+        <file name="cat-oci@aran.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="cat-oci@gascon.autopgen.bin"/>
+        <file name="cat-oci@aran.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
