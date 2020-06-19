@@ -118,15 +118,15 @@
       </program>
       <program name="apertium-transfer -b">
         <file name="cat-oci@aran.t1x"/>
-        <file name="cat-oci.t1x.bin"/>
+        <file name="cat-oci@aran.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="cat-oci@aran.t2x"/>
-        <file name="cat-oci.t2x.bin"/>
+        <file name="cat-oci@aran.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
         <file name="cat-oci@aran.t3x"/>
-        <file name="cat-oci.t3x.bin"/>
+        <file name="cat-oci@aran.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="cat-oci@aran.autogen.bin"/>

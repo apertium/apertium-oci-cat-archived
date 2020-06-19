@@ -933,7 +933,6 @@
 			</action>
 		</rule> 
 
-<!--
 		<rule comment="CHUNK: canvia les prepos que fa falta">
 			<pattern>
 				<pattern-item n="pr"/>
@@ -985,6 +984,6 @@
 				</out>
 			</action>
 		</rule>
--->
+
 </section-rules>
 </postchunk>
