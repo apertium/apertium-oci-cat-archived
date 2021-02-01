@@ -55,7 +55,7 @@ TARGETS_COMMON =		\
 	$(PREFIX2b).t3x.bin	\
 	$(PREFIX2).t1x	\
 	$(PREFIX2).t2x	\
-	$(PREFIX2).t3x
+	$(PREFIX2).t3x  \
 	$(PREFIX2b).t1x	\
 	$(PREFIX2b).t2x	\
 	$(PREFIX2b).t3x
