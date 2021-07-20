@@ -1,0 +1,14 @@
+[0DUCxD10owuT#0] ^,<cm>/,<cm>$
+[/0DUCxD10owuT]
+[3KhhCOd_Ugsh#0] ^l<n><m><sp>/l<n><m><sp>$-^*ov/*ov$
+[/3KhhCOd_Ugsh]
+[4ZthOvZIVQtl#0] ^prèp de<pr>/vora de<pr>$
+[/4ZthOvZIVQtl]
+[56wHhmaOD_Dw#0] ^:<sent>/:<sent>$
+[/56wHhmaOD_Dw]
+[Fsz1vQFmCRwZ#0] ^per'mor que<cnjadv>/perquè<cnjadv>$
+[/Fsz1vQFmCRwZ]
+[YgjvD3dQwRFU#0] ^58<num>/58<num>$
+[/YgjvD3dQwRFU]
+[eVf5DrhA23Zn#0] ^per tant que<cnjadv>/tot i que<cnjadv>$
+[/eVf5DrhA23Zn]

@@ -1,0 +1,20 @@
+[1HNeOiZeFu7g#0] ^2<num>$
+[/1HNeOiZeFu7g]
+[56wHhmaOD_Dw#0] ^:<sent>$
+[/56wHhmaOD_Dw]
+[7y0SfeN7lCuq#0] ^5<num>$
+[/7y0SfeN7lCuq]
+[QbgF6nrAFOI1#0] ^;<sent>$
+[/QbgF6nrAFOI1]
+[_tiLQKumPKwF#0] ^430<num>$
+[/_tiLQKumPKwF]
+[cxwI0ggLmt7e#0] ^penicil.lina<n><file><m>$
+[/cxwI0ggLmt7e]
+[ul7FHQekrA6V#0] ^)<rpar>$
+[/ul7FHQekrA6V]
+[usM4Rr1fBvBq#0] ^al costat de<pr>$
+[/usM4Rr1fBvBq]
+[wjbBPGxHzT_K#0] ^91749<num>$
+[/wjbBPGxHzT_K]
+[zbTuKuppzGqD#0] ^.<sent>$
+[/zbTuKuppzGqD]

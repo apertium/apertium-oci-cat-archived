@@ -1,0 +1,20 @@
+[E-JRC8V9O9ni#0] ^num{^0.0%<num><percent>$}$
+[/E-JRC8V9O9ni]
+[HvDX_vvwZ8Po#0] ^unknown<unknown>{^*Easgkargmel$}$-^unknown<unknown>{^*ʼcea$}$-
+[/HvDX_vvwZ8Po]
+[KPOYFmfPuNVZ#0] ^des de<PREP>{^des de<pr>$}$
+[/KPOYFmfPuNVZ]
+[Muuxq8wcYBzr#0] ^default<default>{^(<lpar>$}$
+[/Muuxq8wcYBzr]
+[TgdAhWK-24tg#0] ^num{^3<num>$}$
+[/TgdAhWK-24tg]
+[cT3tBg6Uze-K#0] ^nom<SN><f><sp><ndf>{^s<n><2><sp>$}$-^unknown<unknown>{^*ʼ$}$ ^nom<SN><m><sp><ndf>{^m<n><2><sp>$}$
+[/cT3tBg6Uze-K]
+[eQJpm-Qsio5G#0] ^num{^7<num>$}$
+[/eQJpm-Qsio5G]
+[eg6CQpIR0D2Y#0] ^verb<SV><vblex><pri><p1><sg><nodef><>{^tenir<vblex><3><4><5>$}$'^cnjcoo<cnjcoo>{^i<cnjcoo>$}$-
+[/eg6CQpIR0D2Y]
+[u_X_MHCo9m-f#0] ^de<PREP>{^de<pr>$}$
+[/u_X_MHCo9m-f]
+[ul7FHQekrA6V#0] ^default<default>{^)<rpar>$}$
+[/ul7FHQekrA6V]

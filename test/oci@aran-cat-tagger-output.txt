@@ -1,0 +1,20 @@
+[KPOYFmfPuNVZ#1] ^des de<pr>$ 
+[/KPOYFmfPuNVZ]
+[u_X_MHCo9m-f#2] ^de<pr>$ 
+[/u_X_MHCo9m-f]
+[Muuxq8wcYBzr#3] ^(<lpar>$
+[/Muuxq8wcYBzr]
+[ul7FHQekrA6V#4] ^)<rpar>$
+[/ul7FHQekrA6V]
+[E-JRC8V9O9ni#5] ^0.0%<num><percent>$
+[/E-JRC8V9O9ni]
+[TgdAhWK-24tg#6] ^3<num>$
+[/TgdAhWK-24tg]
+[eQJpm-Qsio5G#7] ^7<num>$
+[/eQJpm-Qsio5G]
+[HvDX_vvwZ8Po#8] ^*Easgkargmel$-^*ʼcea$-
+[/HvDX_vvwZ8Po]
+[cT3tBg6Uze-K#9] ^s<n><f><sp>$-^*ʼ$ ^m<n><m><sp>$
+[/cT3tBg6Uze-K]
+[eg6CQpIR0D2Y#10] ^auer<vblex><pri><p1><sg>$'^e<cnjcoo>$-
+[/eg6CQpIR0D2Y]

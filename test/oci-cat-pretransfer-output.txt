@@ -1,0 +1,14 @@
+[eVf5DrhA23Zn#1] ^per tant que<cnjadv>$ 
+[/eVf5DrhA23Zn]
+[Fsz1vQFmCRwZ#2] ^per'mor que<cnjadv>$ 
+[/Fsz1vQFmCRwZ]
+[4ZthOvZIVQtl#3] ^prèp de<pr>$ 
+[/4ZthOvZIVQtl]
+[0DUCxD10owuT#4] ^,<cm>$
+[/0DUCxD10owuT]
+[YgjvD3dQwRFU#5] ^58<num>$
+[/YgjvD3dQwRFU]
+[56wHhmaOD_Dw#6] ^:<sent>$
+[/56wHhmaOD_Dw]
+[3KhhCOd_Ugsh#7] ^l<n><m><sp>$-^*ov$
+[/3KhhCOd_Ugsh]

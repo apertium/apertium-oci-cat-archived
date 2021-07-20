@@ -1,0 +1,14 @@
+{
+    "cat-oci": {
+        "input": "cat-oci-input.txt",
+        "mode": "cat-oci"
+    },
+    "oci-cat": {
+        "input": "oci-cat-input.txt",
+        "mode": "oci-cat"
+    },
+    "oci@aran-cat": {
+        "input": "oci@aran-cat-input.txt",
+        "mode": "oci_aran-cat"
+    }
+}

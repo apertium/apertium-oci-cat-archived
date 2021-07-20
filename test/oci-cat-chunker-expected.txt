@@ -1,0 +1,14 @@
+[0DUCxD10owuT#0] ^rel<REL>{^,$}$
+[/0DUCxD10owuT]
+[3KhhCOd_Ugsh#0] ^nom<SN><m><sp><ndf>{^l<n><2><sp>$}$-^unknown<unknown>{^*ov$}$
+[/3KhhCOd_Ugsh]
+[4ZthOvZIVQtl#0] ^prnsubj<SN>{^vora de$}$
+[/4ZthOvZIVQtl]
+[56wHhmaOD_Dw#0] ^:<PREP>{^:<sent>$}$
+[/56wHhmaOD_Dw]
+[Fsz1vQFmCRwZ#0] ^prnperssubj<SN>{^perquè$}$
+[/Fsz1vQFmCRwZ]
+[YgjvD3dQwRFU#0] ^prnitg<SN>{^58$}$
+[/YgjvD3dQwRFU]
+[eVf5DrhA23Zn#0] ^prnperssubj<SN>{^tot i que$}$
+[/eVf5DrhA23Zn]

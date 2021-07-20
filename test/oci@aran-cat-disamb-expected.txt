@@ -1,0 +1,20 @@
+[E-JRC8V9O9ni#0] ^0.0%/0.0%<num><percent>$
+[/E-JRC8V9O9ni]
+[HvDX_vvwZ8Po#0] ^Easgkargmel/*Easgkargmel$-^ʼcea/*ʼcea$-
+[/HvDX_vvwZ8Po]
+[KPOYFmfPuNVZ#0] ^des d’/des de<pr>$
+[/KPOYFmfPuNVZ]
+[Muuxq8wcYBzr#0] ^(/(<lpar>$
+[/Muuxq8wcYBzr]
+[TgdAhWK-24tg#0] ^3/3<num>$
+[/TgdAhWK-24tg]
+[cT3tBg6Uze-K#0] ^s/s<n><f><sp>$-^ʼ/*ʼ$ ^m/m<n><m><sp>$
+[/cT3tBg6Uze-K]
+[eQJpm-Qsio5G#0] ^7/7<num>$
+[/eQJpm-Qsio5G]
+[eg6CQpIR0D2Y#0] ^è/auer<vbhaver><pri><p1><sg>/auer<vblex><pri><p1><sg>$'^e/e<cnjcoo>$-
+[/eg6CQpIR0D2Y]
+[u_X_MHCo9m-f#0] ^dʼ/de<pr>$
+[/u_X_MHCo9m-f]
+[ul7FHQekrA6V#0] ^)/)<rpar>$
+[/ul7FHQekrA6V]

@@ -1,0 +1,20 @@
+[1HNeOiZeFu7g#0] ^num{^2<num>$}$
+[/1HNeOiZeFu7g]
+[56wHhmaOD_Dw#0] ^punt<sent>{^:<sent>$}$
+[/56wHhmaOD_Dw]
+[7y0SfeN7lCuq#0] ^num{^5<num>$}$
+[/7y0SfeN7lCuq]
+[QbgF6nrAFOI1#0] ^punt<sent>{^;<sent>$}$
+[/QbgF6nrAFOI1]
+[_tiLQKumPKwF#0] ^num{^430<num>$}$
+[/_tiLQKumPKwF]
+[cxwI0ggLmt7e#0] ^nom<SN><m><ndf>{^penicillina<n><2>$}$
+[/cxwI0ggLmt7e]
+[ul7FHQekrA6V#0] ^default<default>{^)<rpar>$}$
+[/ul7FHQekrA6V]
+[usM4Rr1fBvBq#0] ^al bòrd de<PREP>{^al bòrd de<pr>$}$
+[/usM4Rr1fBvBq]
+[wjbBPGxHzT_K#0] ^num{^91749<num>$}$
+[/wjbBPGxHzT_K]
+[zbTuKuppzGqD#0] ^punt<sent>{^.<sent>$}$
+[/zbTuKuppzGqD]
