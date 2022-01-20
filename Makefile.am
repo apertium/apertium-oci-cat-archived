@@ -154,13 +154,8 @@ $(PREFIX2b).autobil.bin: .deps/$(PREFIX1b).dix .deps/.d
 ## Lexical selection rules
 ###############################################################################
 
-.deps/%.metalrx: %.metalrx .deps/.d
-	python3 metalrx.py $< $@
-
-.deps/%.lrx: metalrx-to-lrx.xslt .deps/%.metalrx
-	xsltproc $^ > $@.tmp
-	@xmllint --format $@.tmp > $@
-	@rm $@.tmp
+.deps/%.lrx: %.metalrx .deps/.d
+	apertium-metalrx $< $@
 
 $(PREFIX1).autolex.bin: .deps/$(BASENAME).$(PREFIX1).lrx
 	lrx-comp $< $@
