@@ -2,7 +2,6 @@
 ## Makefile for Occitan--French
 ###############################################################################
 
-VERSION=0.1.0
 LANG1=oci
 LANG1b=oci@aran
 LANG2=cat
@@ -154,19 +153,20 @@ $(PREFIX2b).autobil.bin: .deps/$(PREFIX1b).dix .deps/.d
 ## Lexical selection rules
 ###############################################################################
 
-.deps/%.lrx: %.metalrx .deps/.d
-	apertium-metalrx $< $@
-
-$(PREFIX1).autolex.bin: .deps/$(BASENAME).$(PREFIX1).lrx
+$(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
-$(PREFIX1b).autolex.bin: .deps/$(BASENAME).$(PREFIX1b).lrx
+$(PREFIX1b).autolex.bin: $(BASENAME).$(PREFIX1b).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
-$(PREFIX2).autolex.bin: .deps/$(BASENAME).$(PREFIX2).lrx
+$(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
-$(PREFIX2b).autolex.bin: .deps/$(BASENAME).$(PREFIX2b).lrx
+$(PREFIX2b).autolex.bin: $(BASENAME).$(PREFIX2b).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 ###############################################################################
@@ -275,11 +275,11 @@ $(PREFIX2b).autopgen.bin: $(AP_SRC1)/$(LANG1b).autopgen.bin
 ###############################################################################
 
 EXTRA_DIST=					\
-		.deps/$(BASENAME).$(PREFIX1).lrx	\
-		.deps/$(BASENAME).$(PREFIX1b).lrx	\
+		$(BASENAME).$(PREFIX1).lrx	\
+		$(BASENAME).$(PREFIX1b).lrx	\
 		$(BASENAME).$(PREFIX1).dix	\
-		.deps/$(BASENAME).$(PREFIX2).lrx	\
-		.deps/$(BASENAME).$(PREFIX2b).lrx	\
+		$(BASENAME).$(PREFIX2).lrx	\
+		$(BASENAME).$(PREFIX2b).lrx	\
 		$(BASENAME).$(PREFIX1).t1x	\
 		$(BASENAME).$(PREFIX1).t2x	\
 		$(BASENAME).$(PREFIX1).t3x	\
